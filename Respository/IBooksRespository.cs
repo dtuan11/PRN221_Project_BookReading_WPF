@@ -15,8 +15,9 @@ namespace Respository
         public void UpdateBook(Book book);
         public void DeleteBook(int id);
         public int GetBookIdByBookName(string bookName);
-
         public List<Book> GetBooksBySearch(string text);
+        public List<Book> GetBookByApproveSatus(string status);
+
         public List<Book> GetAvailableBooksForAccount(int id);
     }
 }

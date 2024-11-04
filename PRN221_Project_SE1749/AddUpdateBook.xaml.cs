@@ -67,6 +67,26 @@ namespace PRN221_Project_SE1749
         {
             try
             {
+                // Validate Detail field - max 2000 words
+                //var detailText = txtDetail.Text;
+                //var wordCount = detailText.Split(new[] { ' ', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries).Length;
+                //if (wordCount > 2000)
+                //{
+                //    MessageBox.Show("Detail field cannot exceed 2000 words.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                //    return;
+                //}
+
+                // Validate Image field - must be a valid URL and point to an image
+                var imageUrl = txtImage.Text;
+                if (!Uri.TryCreate(imageUrl, UriKind.Absolute, out Uri uriResult) ||
+                    !(imageUrl.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase) ||
+                      imageUrl.EndsWith(".jpeg", StringComparison.OrdinalIgnoreCase) ||
+                      imageUrl.EndsWith(".png", StringComparison.OrdinalIgnoreCase) ||
+                      imageUrl.EndsWith(".gif", StringComparison.OrdinalIgnoreCase)))
+                {
+                    MessageBox.Show("Image field must be a valid URL pointing to an image (jpg, jpeg, png, gif).", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
                 // Gán giá trị từ giao diện vào Book object
                 Book.Title = txtTitle.Text;
                 Book.AuthorName = txtAuthor.Text;

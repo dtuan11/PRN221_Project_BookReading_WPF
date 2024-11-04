@@ -73,3 +73,4 @@ D:\Desktop\Mon Hoc\Ky7\PRN221\Project\PRN221_Project_SE1749\PRN221_Project_SE174
 D:\Desktop\Mon Hoc\Ky7\PRN221\Project\PRN221_Project_SE1749\PRN221_Project_SE1749\obj\Debug\net6.0-windows\ref\PRN221_Project_SE1749.dll
 D:\Desktop\Mon Hoc\Ky7\PRN221\Project\PRN221_Project_SE1749\PRN221_Project_SE1749\obj\Debug\net6.0-windows\ResponseFeedBack.baml
 D:\Desktop\Mon Hoc\Ky7\PRN221\Project\PRN221_Project_SE1749\PRN221_Project_SE1749\obj\Debug\net6.0-windows\ResponseFeedBack.g.cs
+D:\Desktop\Mon Hoc\Ky7\PRN221\Project\PRN221_Project_SE1749\PRN221_Project_SE1749\obj\Debug\net6.0-windows\PRN221_Project_SE1749.sourcelink.json

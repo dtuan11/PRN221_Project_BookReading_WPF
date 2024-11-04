@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Desktop\\Mon Hoc\\Ky7\\PRN221\\Project\\PRN221_Project_SE1749\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{E7D88C42-0066-4D0B-BE18-9901542E0FDC}|PRN221_Project_SE1749\\PRN221_Project_SE1749.csproj|d:\\desktop\\mon hoc\\ky7\\prn221\\project\\prn221_project_se1749\\prn221_project_se1749\\feedbackmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7D88C42-0066-4D0B-BE18-9901542E0FDC}|PRN221_Project_SE1749\\PRN221_Project_SE1749.csproj|solutionrelative:prn221_project_se1749\\feedbackmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7D88C42-0066-4D0B-BE18-9901542E0FDC}|PRN221_Project_SE1749\\PRN221_Project_SE1749.csproj|d:\\desktop\\mon hoc\\ky7\\prn221\\project\\prn221_project_se1749\\prn221_project_se1749\\responsefeedback.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E7D88C42-0066-4D0B-BE18-9901542E0FDC}|PRN221_Project_SE1749\\PRN221_Project_SE1749.csproj|solutionrelative:prn221_project_se1749\\responsefeedback.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7D88C42-0066-4D0B-BE18-9901542E0FDC}|PRN221_Project_SE1749\\PRN221_Project_SE1749.csproj|d:\\desktop\\mon hoc\\ky7\\prn221\\project\\prn221_project_se1749\\prn221_project_se1749\\feedbackmanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E7D88C42-0066-4D0B-BE18-9901542E0FDC}|PRN221_Project_SE1749\\PRN221_Project_SE1749.csproj|solutionrelative:prn221_project_se1749\\feedbackmanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7D88C42-0066-4D0B-BE18-9901542E0FDC}|PRN221_Project_SE1749\\PRN221_Project_SE1749.csproj|d:\\desktop\\mon hoc\\ky7\\prn221\\project\\prn221_project_se1749\\prn221_project_se1749\\responsefeedback.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7D88C42-0066-4D0B-BE18-9901542E0FDC}|PRN221_Project_SE1749\\PRN221_Project_SE1749.csproj|solutionrelative:prn221_project_se1749\\responsefeedback.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,58 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ResponseFeedBack.xaml.cs",
-              "DocumentMoniker": "D:\\Desktop\\Mon Hoc\\Ky7\\PRN221\\Project\\PRN221_Project_SE1749\\PRN221_Project_SE1749\\ResponseFeedBack.xaml.cs",
-              "RelativeDocumentMoniker": "PRN221_Project_SE1749\\ResponseFeedBack.xaml.cs",
-              "ToolTip": "D:\\Desktop\\Mon Hoc\\Ky7\\PRN221\\Project\\PRN221_Project_SE1749\\PRN221_Project_SE1749\\ResponseFeedBack.xaml.cs",
-              "RelativeToolTip": "PRN221_Project_SE1749\\ResponseFeedBack.xaml.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAADwvycAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T12:45:58.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ResponseFeedBack.xaml",
-              "DocumentMoniker": "D:\\Desktop\\Mon Hoc\\Ky7\\PRN221\\Project\\PRN221_Project_SE1749\\PRN221_Project_SE1749\\ResponseFeedBack.xaml",
-              "RelativeDocumentMoniker": "PRN221_Project_SE1749\\ResponseFeedBack.xaml",
-              "ToolTip": "D:\\Desktop\\Mon Hoc\\Ky7\\PRN221\\Project\\PRN221_Project_SE1749\\PRN221_Project_SE1749\\ResponseFeedBack.xaml",
-              "RelativeToolTip": "PRN221_Project_SE1749\\ResponseFeedBack.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-03T06:11:54.228Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FeedBackManager.xaml.cs",
-              "DocumentMoniker": "D:\\Desktop\\Mon Hoc\\Ky7\\PRN221\\Project\\PRN221_Project_SE1749\\PRN221_Project_SE1749\\FeedBackManager.xaml.cs",
-              "RelativeDocumentMoniker": "PRN221_Project_SE1749\\FeedBackManager.xaml.cs",
-              "ToolTip": "D:\\Desktop\\Mon Hoc\\Ky7\\PRN221\\Project\\PRN221_Project_SE1749\\PRN221_Project_SE1749\\FeedBackManager.xaml.cs",
-              "RelativeToolTip": "PRN221_Project_SE1749\\FeedBackManager.xaml.cs",
-              "ViewState": "AQIAAGMAAAAAAAAAAAASwHMAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T06:02:56.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FeedBackManager.xaml",
-              "DocumentMoniker": "D:\\Desktop\\Mon Hoc\\Ky7\\PRN221\\Project\\PRN221_Project_SE1749\\PRN221_Project_SE1749\\FeedBackManager.xaml",
-              "RelativeDocumentMoniker": "PRN221_Project_SE1749\\FeedBackManager.xaml",
-              "ToolTip": "D:\\Desktop\\Mon Hoc\\Ky7\\PRN221\\Project\\PRN221_Project_SE1749\\PRN221_Project_SE1749\\FeedBackManager.xaml",
-              "RelativeToolTip": "PRN221_Project_SE1749\\FeedBackManager.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-03T06:02:52.423Z"
             }
           ]
         }

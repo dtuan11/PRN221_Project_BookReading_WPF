@@ -14,3 +14,4 @@ D:\Desktop\Mon Hoc\Ky7\PRN221\Project\PRN221_Project_SE1749\DAO\obj\Debug\net6.0
 D:\Desktop\Mon Hoc\Ky7\PRN221\Project\PRN221_Project_SE1749\DAO\obj\Debug\net6.0\refint\DAO.dll
 D:\Desktop\Mon Hoc\Ky7\PRN221\Project\PRN221_Project_SE1749\DAO\obj\Debug\net6.0\DAO.pdb
 D:\Desktop\Mon Hoc\Ky7\PRN221\Project\PRN221_Project_SE1749\DAO\obj\Debug\net6.0\ref\DAO.dll
+D:\Desktop\Mon Hoc\Ky7\PRN221\Project\PRN221_Project_SE1749\DAO\obj\Debug\net6.0\DAO.sourcelink.json

@@ -29,46 +29,43 @@ namespace PRN221_Project_SE1749
         {
             InitializeComponent();
             booksRespository = new BooksRespository();
-            //LoadActive();
+            LoadApprove();
             //LoadStatus();
         }
-        //private void LoadActive()
-        //{
-        //    try
-        //    {
-        //        List<string> actives = new List<string>{
-        //            "True",
-        //            "False"
-        //        };
-        //        cbActive.ItemsSource = actives;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show("LoadActive ", ex.Message);
-        //    }
+        private void LoadApprove()
+        {
+            try
+            {
+                List<string> approve = new List<string>{
+                    "Approved",
+                    "Pending ",
+                    "Rejected"
+                };
+                cbApprove.ItemsSource = approve;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("LoadApprove ", ex.Message);
+            }
+        }
 
-        //}
-        //private void LoadStatus()
-        //{
-        //    try
-        //    {
-        //        List<string> status = new List<string>{
-        //            "Updating",
-        //            "Full"
-        //        };
-        //        cbStatus.ItemsSource = status;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show("LoadStatus ", ex.Message);
-        //    }
-
-        //}
         public void LoadBooks()
         {
             try
             {
                 var book = booksRespository.GetAllBook();
+                BooksDataGrid.ItemsSource = book;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("LoadBooks ", ex.Message);
+            }
+        }
+        public void LoadBooks2(string approveStatus)
+        {
+            try
+            {
+                var book = booksRespository.GetBookByApproveSatus(approveStatus);
                 BooksDataGrid.ItemsSource = book;
             }
             catch (Exception ex)
@@ -213,6 +210,14 @@ namespace PRN221_Project_SE1749
             this.Hide();
             FeedBackManager feedBackManager = new FeedBackManager();
             feedBackManager.ShowDialog();
+        }
+
+        private void cbApprove_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (cbApprove.SelectedValue is string selectedStatus)
+            {
+                LoadBooks2(selectedStatus);
+            }
         }
     }
 }

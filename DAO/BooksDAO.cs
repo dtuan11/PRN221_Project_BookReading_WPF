@@ -139,6 +139,22 @@ namespace DAO
 
             }
         }
+        public List<Book> GetBookByApproveSatus(string status)
+        {
+            try
+            {
+                return _context.Books
+                .Include(x => x.Chapters)
+                .Include(x => x.CategoryInBooks)
+                .Include(x => x.User)
+                .Where(u => u.Approve == status).ToList();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+
+            }
+        }
         public List<Book> GetAvailableBooksForAccount(int accountId)
         {
             //var borrowedBookIds = _context.BorrowingHistories.Include(b => b.Book)

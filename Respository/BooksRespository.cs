@@ -18,6 +18,7 @@ namespace Respository
         public void DeleteBook(int id) => BooksDAO.Instance.DeleteBook(id);
         public int GetBookIdByBookName(string bookName) => BooksDAO.Instance.GetBookIdByBookName(bookName);
         public List<Book> GetBooksBySearch(string text) => BooksDAO.Instance.GetBooksBySearch(text);
+        public List<Book> GetBookByApproveSatus(string status) => BooksDAO.Instance.GetBookByApproveSatus(status);
         public List<Book> GetAvailableBooksForAccount(int id) => BooksDAO.Instance.GetAvailableBooksForAccount(id);
 
     }
